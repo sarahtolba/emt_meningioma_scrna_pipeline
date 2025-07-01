@@ -1,0 +1,17 @@
+# (FASTQ files)
+data/rawfiles/
+*.fastq
+*.fq
+
+# Large Seurat objects
+*.rds
+
+# System files 
+
+.DS_Store
+Thumbs.db
+
+# R history and temporary files
+.Rhistory
+.RData
+.Rproj.user/
