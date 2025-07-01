@@ -15,17 +15,23 @@ By analyzing cell-type-specific EMT activity across tumor and normal samples, we
 
 ---
 
+
+
+```
 ## Project Structure
-/data/ # Raw sequencing data (not included; download from GEO accession)
-/seurat_objects/ # Serialized Seurat objects for different processing stages (excluded due to size)
-/results/ # Differential expression results, marker gene tables, metadata summaries
-/figures/ # Visualizations: UMAPs, violin plots, heatmaps, etc.
-/scripts/ # R scripts implementing each step of the pipeline
-.gitignore # Specifies files and folders excluded from Git tracking
-README.md # This file
 
+```
 
----
+/data/           # Raw sequencing data (not included; download from GEO accession)
+/seurat\_objects/ # Serialized Seurat objects for different processing stages (excluded due to size)
+/results/        # Differential expression results, marker gene tables, metadata summaries
+/figures/        # Visualizations: UMAPs, violin plots, heatmaps, etc.
+/scripts/        # R scripts implementing each step of the pipeline
+.gitignore       # Specifies files and folders excluded from Git tracking
+README.md        # This file
+
+```
+
 
 ## Analysis Pipeline
 
