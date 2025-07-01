@@ -15,23 +15,17 @@ By analyzing cell-type-specific EMT activity across tumor and normal samples, we
 
 ---
 
-
-
-```
 ## Project Structure
 
-```
-
-/data/           # Raw sequencing data (not included; download from GEO accession)
-/seurat\_objects/ # Serialized Seurat objects for different processing stages (excluded due to size)
-/results/        # Differential expression results, marker gene tables, metadata summaries
-/figures/        # Visualizations: UMAPs, violin plots, heatmaps, etc.
-/scripts/        # R scripts implementing each step of the pipeline
-.gitignore       # Specifies files and folders excluded from Git tracking
+/data/           # Raw sequencing data (not included; download from GEO accession)  
+/seurat_objects/ # Serialized Seurat objects for different processing stages (excluded due to size)  
+/results/        # Differential expression results, marker gene tables, metadata summaries  
+/figures/        # Visualizations: UMAPs, violin plots, heatmaps, etc.  
+/scripts/        # R scripts implementing each step of the pipeline  
+.gitignore       # Specifies files and folders excluded from Git tracking  
 README.md        # This file
 
-```
-
+---
 
 ## Analysis Pipeline
 
@@ -78,17 +72,16 @@ README.md        # This file
 
 - Large files such as raw sequencing data and Seurat objects are **not** included in this repository due to size limitations.  
 - `.gitignore` is configured to exclude heavy files such as `.rds` Seurat objects and raw data.  
-- Contact [Your Name] at [Your Email] for access to processed data or collaboration inquiries.
+- Contact for access to processed data or collaboration inquiries.
 
 ---
 
 ## Contact Information
 
-**[Sarah Tolba]**  
+**Sarah Tolba**  
   
-Email: [sarahtolba842@gmail.com]  
-GitHub: [https://github.com/sarahtolba]
-
+Email: [sarahtolba842@gmail.com](mailto:sarahtolba842@gmail.com)  
+GitHub: [https://github.com/sarahtolba](https://github.com/sarahtolba)
 
 ---
 
@@ -96,5 +89,3 @@ GitHub: [https://github.com/sarahtolba]
 
 This project was inspired by methods and tools widely used in cutting-edge single-cell transcriptomics research.  
 Special thanks to the developers of Seurat, SingleR, DoubletFinder, and other open-source tools used in this analysis.
-
-
