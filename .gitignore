@@ -8,7 +8,7 @@ data/rawfiles/
 
 # System files 
 
-.DS_Store
+
 Thumbs.db
 
 # R history and temporary files
