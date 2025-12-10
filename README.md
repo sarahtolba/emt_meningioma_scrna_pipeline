@@ -116,27 +116,29 @@ Outputs include:
 
 ---
 
-Gene Set Enrichment Analysis (GSEA) — COMPLETED
+### **7. Gene Set Enrichment Analysis (GSEA)**
 
-To interpret EMT-associated DEGs functionally, GSEA was performed on a ranked gene list using GO terms from the org.Hs.eg.db database.
+GSEA was performed on the ranked DEG list using GO terms from **org.Hs.eg.db**:
 
-Enriched pathways in EMT_high cells:
-	•	EMT-related biological processes
-	•	TGF-β–associated processes
-	•	Hypoxia-related GO terms
-	•	Inflammatory response pathways
-	•	JAK–STAT / NF-κB–associated processes
+- Creation of ranked gene list  
+- Running GSEA with clusterProfiler  
+- Extraction of significantly enriched GO terms  
+- Visualization of top enriched pathways  
 
-These results validate EMT activation and reveal associated signaling programs.
+**Enriched GO terms in EMT_high cells:**
+- EMT-related biological processes  
+- TGF-β–associated GO terms  
+- Hypoxia-related GO terms  
+- Inflammatory response pathways  
+- IL6/JAK/STAT3-related terms  
+- TNF/NF-κB-related signaling  
 
-Tools: clusterProfiler, org.Hs.eg.db
-Script: scripts/07_GSEA_EMT_high_vs_low.R
+**Tools:** clusterProfiler, org.Hs.eg.db  
 
-Outputs:
-	•	GSEA_results_GO.csv
-	•	Top 10 enrichment barplot
-	•	EMT-related GO term enrichment curve
-
+**Outputs:**
+- `GSEA_results_GO.csv`  
+- Top 10 enrichment barplot  
+- EMT-related GO enrichment curve  
 ---
 
 ### **8. Cell Type Annotation**
