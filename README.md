@@ -167,26 +167,6 @@ This reveals transcriptional transitions underlying EMT.
 
 **Tools:** Monocle3, SeuratWrappers
 
----
-
-# 📁 Repository Structure
-
-project_root/
-├── data/ # Raw matrices from GSE183655 (not included)
-├── seurat_objects/ # Large .rds files (gitignored)
-├── results/ # DEGs, pseudotime genes, GSEA output tables
-├── figures/ # UMAPs, heatmaps, EMT plots, trajectory figures
-├── scripts/ # Modular analysis scripts
-│ ├── 01_preprocessing_and_QC.R
-│ ├── 02_doublet_removal_DoubletFinder.R
-│ ├── 03_integration_seurat.R
-│ ├── 04_EMT_scoring_and_DE.R
-│ ├── 05_celltype_annotation_SingleR.R
-│ ├── 06_pseudotime_monocle3.R
-│ └── 07_GSEA_EMT_high_vs_low.R # Hallmark GSEA
-├── .gitignore
-└── README.md
-
 
 ---
 
