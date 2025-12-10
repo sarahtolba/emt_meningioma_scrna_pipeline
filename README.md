@@ -116,27 +116,26 @@ Outputs include:
 
 ---
 
-### **7. Gene Set Enrichment Analysis (GSEA) — COMPLETED**
-To interpret EMT-associated DEGs functionally, GSEA was performed on a ranked gene list using **Hallmark pathways** from MSigDB.
+Gene Set Enrichment Analysis (GSEA) — COMPLETED
 
-**Enriched pathways in EMT_high cells:**
+To interpret EMT-associated DEGs functionally, GSEA was performed on a ranked gene list using GO terms from the org.Hs.eg.db database.
 
-- **HALLMARK_EPITHELIAL_MESENCHYMAL_TRANSITION**  
-- **HALLMARK_TGF_BETA_SIGNALING**  
-- **HALLMARK_HYPOXIA**  
-- **HALLMARK_INFLAMMATORY_RESPONSE**  
-- **HALLMARK_IL6_JAK_STAT3_SIGNALING**  
-- **HALLMARK_TNFA_SIGNALING_VIA_NFKB**  
+Enriched pathways in EMT_high cells:
+	•	EMT-related biological processes
+	•	TGF-β–associated processes
+	•	Hypoxia-related GO terms
+	•	Inflammatory response pathways
+	•	JAK–STAT / NF-κB–associated processes
 
 These results validate EMT activation and reveal associated signaling programs.
 
-**Tools:** fgsea, msigdbr  
-**Script:** `scripts/07_GSEA_EMT_high_vs_low.R`  
+Tools: clusterProfiler, org.Hs.eg.db
+Script: scripts/07_GSEA_EMT_high_vs_low.R
 
-**Outputs:**
-- `GSEA_results_Hallmark.csv`  
-- Top 10 enrichment barplot  
-- EMT hallmark enrichment curve  
+Outputs:
+	•	GSEA_results_GO.csv
+	•	Top 10 enrichment barplot
+	•	EMT-related GO term enrichment curve
 
 ---
 
