@@ -1,7 +1,8 @@
 # 🧬 Single-Cell Characterization of EMT Programs in Human Meningioma
 
-This repository contains a fully reproducible single-cell RNA-sequencing (scRNA-seq) analysis pipeline developed to investigate the **epithelial–mesenchymal transition (EMT)** program in human meningioma. The analysis integrates multiple patient samples, identifies EMT-driven cellular states, characterizes differential gene expression, performs pathway enrichment, and reconstructs pseudotime trajectories to understand EMT progression at single-cell resolution.
+This project implements an end to end scRNA seq analysis workflow in R using GEO dataset GSE183655. The pipeline includes quality control filtering, per sample doublet detection with DoubletFinder, Seurat integration and clustering, EMT module scoring and EMT high vs EMT low differential expression, SingleR cell type annotation, Monocle3 pseudotime trajectory analysis, and GO Biological Process enrichment with clusterProfiler.
 
+Tools: R, Seurat, DoubletFinder, SingleR, celldex, Monocle3, clusterProfiler, org.Hs.eg.db
 All analyses are performed in **R**, using well-established frameworks including **Seurat, DoubletFinder, SingleR, Monocle3, fgsea**, and **msigdbr**.
 
 ---
