@@ -2,8 +2,7 @@
 
 This project implements an end to end scRNA seq analysis workflow in R using GEO dataset GSE183655. The pipeline includes quality control filtering, per sample doublet detection with DoubletFinder, Seurat integration and clustering, EMT module scoring and EMT high vs EMT low differential expression, SingleR cell type annotation, Monocle3 pseudotime trajectory analysis, and GO Biological Process enrichment with clusterProfiler.
 
-Tools: R, Seurat, DoubletFinder, SingleR, celldex, Monocle3, clusterProfiler, org.Hs.eg.db
-All analyses are performed in **R**, using well-established frameworks including **Seurat, DoubletFinder, SingleR, Monocle3, fgsea**, and **msigdbr**.
+Tools:  R, Seurat, DoubletFinder, SingleR, celldex, Monocle3, clusterProfiler, org.Hs.eg.db
 
 ---
 
